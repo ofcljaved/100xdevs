@@ -1,10 +1,8 @@
 import '../global.css';
-import 'expo-dev-client';
 import { ThemeProvider as NavThemeProvider } from '@react-navigation/native';
-import { Icon } from '@roninoss/icons';
 import { Link, Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { Pressable, View } from 'react-native';
+import { Pressable, Text, View } from 'react-native';
 
 import { ThemeToggle } from '~/components/nativewindui/ThemeToggle';
 import { cn } from '~/lib/cn';
@@ -54,7 +52,7 @@ function SettingsIcon() {
       <Pressable className="opacity-80">
         {({ pressed }) => (
           <View className={cn(pressed ? 'opacity-50' : 'opacity-90')}>
-            <Icon name="cog-outline" color={colors.foreground} />
+            <Text>Hello</Text>
           </View>
         )}
       </Pressable>

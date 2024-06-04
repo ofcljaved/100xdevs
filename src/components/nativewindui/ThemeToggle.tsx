@@ -1,10 +1,10 @@
-import { Icon } from '@roninoss/icons';
 import { Pressable, View } from 'react-native';
 import Animated, { LayoutAnimationConfig, ZoomInRotate } from 'react-native-reanimated';
 
 import { cn } from '~/lib/cn';
 import { useColorScheme } from '~/lib/useColorScheme';
 import { COLORS } from '~/theme/colors';
+import { Text } from './Text';
 
 export function ThemeToggle() {
   const { colorScheme, toggleColorScheme } = useColorScheme();
@@ -18,12 +18,12 @@ export function ThemeToggle() {
           {colorScheme === 'dark'
             ? ({ pressed }) => (
                 <View className={cn('px-0.5', pressed && 'opacity-50')}>
-                  <Icon namingScheme="sfSymbol" name="moon.stars" color={COLORS.white} />
+                  <Text>Moon</Text>
                 </View>
               )
             : ({ pressed }) => (
                 <View className={cn('px-0.5', pressed && 'opacity-50')}>
-                  <Icon namingScheme="sfSymbol" name="sun.min" color={COLORS.black} />
+                  <Text>Sun</Text>
                 </View>
               )}
         </Pressable>

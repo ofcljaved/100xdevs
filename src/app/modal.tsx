@@ -1,4 +1,3 @@
-import { Icon } from '@roninoss/icons';
 import { StatusBar } from 'expo-status-bar';
 import { Linking, Platform, View } from 'react-native';
 
@@ -13,7 +12,6 @@ export default function ModalScreen() {
         style={Platform.OS === 'ios' ? 'light' : colorScheme === 'dark' ? 'light' : 'dark'}
       />
       <View className="flex-1 items-center justify-center gap-1 px-12">
-        <Icon name="file-plus-outline" size={42} color={colors.grey} />
         <Text variant="title3" className="pb-1 text-center font-semibold">
           NativeWindUI
         </Text>
