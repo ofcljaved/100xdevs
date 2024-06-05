@@ -5107,9 +5107,9 @@ jimp-compact@0.16.1:
   integrity sha512-dZ6Ra7u1G8c4Letq/B5EzAxj4tLFHL+cGtdpR+PVm4yzPDj+lCk+AbivWt1eOM+ikzkowtyV7qSqX6qr3t71Ww==
 
 jiti@^1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.0.tgz#7c97f8fe045724e136a397f7340475244156105d"
-  integrity sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==
+  version "1.21.1"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.1.tgz#84639a2debaececa42fcb2a313b5b80716c894ab"
+  integrity sha512-KMXpzEJMsOFyRj6ZpDTnnlJrdr9umUY+eut5vlRvjVixohitnRFIRTFw9MEu9zPlBxTHZo6xD5ftKYiQZuJYQw==
 
 joi@^17.2.1:
   version "17.13.1"
