@@ -15,7 +15,8 @@ cssInterop(FlatList, {
 });
 
 export default function Screen() {
-  const searchValue = useHeaderSearchBar({ hideWhenScrolling: COMPONENTS.length === 0 });
+  const searchValue: string = '';
+  // const searchValue = useHeaderSearchBar({ hideWhenScrolling: COMPONENTS.length === 0 });
 
   const data = searchValue
     ? COMPONENTS.filter((c) => c.name.toLowerCase().includes(searchValue.toLowerCase()))
