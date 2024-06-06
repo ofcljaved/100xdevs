@@ -1,4 +1,5 @@
 export * from './Container';
+export * from './DrawerContent';
 export * from './OnBoardContent';
 export * from './OnBoardFooter';
 export * from './OnBoardLogo';

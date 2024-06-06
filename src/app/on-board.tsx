@@ -38,7 +38,7 @@ export default function OnBoard() {
   return (
     <Animated.View className="relative flex-1" entering={FadeInDown}>
       <OnBoardLogo />
-      <Animated.View entering={FadeIn.delay(500)}>
+      <Animated.View entering={FadeIn.delay(500)} className={'relative'}>
         <Animated.ScrollView
           ref={scrollRef}
           horizontal
